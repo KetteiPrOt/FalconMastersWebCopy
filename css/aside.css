@@ -1,0 +1,27 @@
+aside {
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+aside a {
+	border-radius: 3px;
+}
+
+aside a .redesSociales {
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+	transition-duration: 0.3s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+aside a .redesSociales:hover {
+	position: relative;
+	left: 2px;
+	transform: scale(1.2);
+}

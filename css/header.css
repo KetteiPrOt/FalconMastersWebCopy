@@ -1,0 +1,82 @@
+/* --- layout --- */
+
+header {
+	background: white;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+header section {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+
+/* --- Elementos --- */
+
+/*Separador*/
+header {
+	border-top: solid 5px var(--primarioAzul);
+}
+
+/*logo*/
+header section .logo {
+	color: black;	
+	text-decoration: none;
+	margin-right: 60px;
+	/*Flexbox*/
+	display: inline-flex;
+	vertical-align: top;
+}
+
+header section .logo:hover {
+	color: white;
+	background: black;
+}
+
+header section .logo img {
+	height: 55px;
+	vertical-align: top;
+}
+
+header section .logo p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 0 10px;
+	/*Flexbox*/
+	display: flex;
+	align-items: center;
+}
+
+/*Menu de navegacion*/
+header section .contNavegacion {
+	box-sizing: content-box;
+	padding: 0 15px;
+	margin: 5px 0px;
+	margin-right: 10px;
+	/*Flexbox*/
+	display: inline-flex;
+	vertical-align: top;
+	align-items: center;
+}
+
+header section .contNavegacion {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+
+header section .contNavegacion:hover {
+	color: var(--primarioAzul);
+	border-bottom: solid 5px var(--primarioAzul);
+	margin-bottom: 0;
+}
+
+header section .botonMenu {
+	display: none;
+}

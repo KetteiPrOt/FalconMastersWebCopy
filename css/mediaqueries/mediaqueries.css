@@ -1,0 +1,268 @@
+@media screen and (max-width: 1400px){
+
+	.contenedorGrid .contacto .redesSociales .redSocial .icono {
+		font-size: 13px; /*initial = 16px*/
+	}
+
+	.contenedorGrid .contacto .redesSociales .redSocial .numero {
+		font-size: 18.5px; /*initial = 22px*/
+	}
+
+	.contenedorGrid .contacto .redesSociales .redSocial .parrafo {
+		font-size: 14.5px; /*initial = 16px*/
+	}
+}
+
+@media screen and (max-width: 1200px){
+
+	/* === === === === === Contacto ==== === === === */
+
+	.contenedorGrid .contacto .redesSociales .redSocial .icono {
+		font-size: 10px; /*initial = 16px*/
+	}
+
+	.contenedorGrid .contacto .redesSociales .redSocial .numero {
+		font-size: 15px; /*initial = 22px*/
+	}
+
+	.contenedorGrid .contacto .redesSociales .redSocial .parrafo {
+		font-size: 13px; /*initial = 16px*/
+	}
+
+	/* === === === === === Formulario ==== === === === */
+
+	.contenedorGrid .contacto .formulario .parrafo {
+		text-align: center;
+		padding: 0 30px;
+	}
+
+	.contenedorGrid .contacto .formulario .contenedorSubmit {
+		width: 60%;
+	}
+
+	.contenedorGrid .contacto .formulario .contenedorSubmit .submit {
+		background-size: 17px 17px;
+		background-position: 10% center;
+		font-size: 18px;
+	}
+
+	/* === === === === === Articulos ==== === === === */
+	.contenedorGrid .articulo .menuEtiquetas a {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	/* === === === === Header y Aside === === === === */
+
+	aside { display: none; }
+
+	header section {
+		height: 55px;
+		/*Flexbox*/
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	header section .contNavegacion { display: none; }
+
+	header section .botonMenu {
+		background: transparent;
+		height: 45%;
+		border: none;
+		margin-right: 15px;
+		/*Flexbox*/
+		display: flex;
+		align-items: center;
+	}
+
+	header section .botonMenu .iconoMenuNegro {
+		height: 100%;
+	}
+
+	/* === === === === Elementos de la Grid === === === === */
+
+	.contenedorGrid .contacto {
+		display: none;
+	}
+
+	body .contenedorGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 25px repeat(4, auto);
+		grid-template-areas: 'categorias categorias categorias'
+							 'buscar     buscar     buscar'
+							 'articulo1  articulo2  articulo3'
+							 'articulo4  articulo5  articulo6'
+							 'indice     indice     indice';
+	}
+
+	body .contenedorGrid .categorias .menuCategorias {
+		width: 100%;
+	}
+
+	.contenedorGrid .buscar .input-icono {
+		background-position: 98.5% center;
+	}
+
+	/*Articulos*/
+	.contenedorGrid .articulo .parrafoArticulo {
+		font-size: 12px;
+		margin-bottom: 30px;
+	}
+
+	.contenedorGrid .articulo .autorArticulo {
+		display: none;
+	}
+
+	.contenedorGrid .articulo .fechaArticulo {
+		display: none;
+	}
+
+	.contenedorGrid .articulo .menuEtiquetas {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body .contenedorGrid {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 25px repeat(5, auto);
+		grid-template-areas: 'categorias categorias'
+							 'buscar     buscar'
+							 'articulo1  articulo2'
+							 'articulo3  articulo4'
+							 'articulo5  articulo6'
+							 'indice     indice';
+	}
+
+	/*Articulos*/
+	.contenedorGrid .articulo .parrafoArticulo {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+
+	/*Nustros Cursos*/
+	main .nuestrosCursos .separador {
+		display: none;
+	}
+
+	main .nuestrosCursos .cursos {
+		/*background: skyblue;*/
+		/*Flexbox*/
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	/*Cursos*/
+	main .nuestrosCursos .cursos .articulo {
+		/*background: pink;*/
+		width: 49%;
+		display: grid;
+		margin-bottom: 35px;
+	}
+
+	main .nuestrosCursos .cursos .articulo .enlaceAzul {
+		justify-self: center;
+		align-self: center;
+	}
+
+	/* footer */
+	/* --- layout --- */
+	.piePagina footer .disminuirAncho {
+		justify-content: center;
+	}
+
+	/* --- Logo --- */
+	.piePagina footer .disminuirAncho .logoGrande {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body .contenedorGrid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 25px repeat(8, auto);
+		grid-template-areas: 'categorias'
+							 'buscar'
+							 'articulo1'
+							 'articulo2'
+							 'articulo3'
+							 'articulo4'
+							 'articulo5'
+							 'articulo6'
+							 'indice';
+	}
+
+	/*indice*/
+	.contenedorGrid .indice .activo {
+		height: 40px;
+		padding: 10px 15px;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+
+	.contenedorGrid .indice .enlace {
+		height: 40px;
+		padding: 10px 15px;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+
+	/*Nustros Cursos*/
+	main .nuestrosCursos {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	/*Indice*/
+	.contenedorGrid .indice {
+		padding: 20px;
+	}
+
+	.contenedorGrid .indice .activo {
+		height: 40px;
+		padding: 10px 15px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+
+	.contenedorGrid .indice .enlace {
+		height: 40px;
+		padding: 10px 15px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+
+	/*footer*/
+	.piePagina footer .disminuirAncho {
+		width: 100%;
+	}
+
+	.piePagina footer .disminuirAncho .redesSociales {
+		width: 100%
+	}
+
+	.piePagina footer .disminuirAncho .redesSociales .redSocial {
+		width: 33.3333%
+	}
+}
+
+@media screen and (max-width: 320px) {
+	/* Header */
+	header section {
+		width: 100%;
+		margin: 0px;
+	}
+
+	header section .botonMenu {
+		margin: 0;
+		position: relative;
+		right: 30px;
+	}
+
+
+}

@@ -1,0 +1,37 @@
+body .contenedorGrid {
+	/*background: skyblue;*/
+	width: 90%;
+	padding-top: 20px;
+	margin: 0 auto;
+	/* CSS Grid */
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 0.8fr;
+	grid-template-rows: repeat(5, auto);
+	grid-template-areas: 'categorias categorias buscar'
+						 'articulo1  articulo2  contacto'
+						 'articulo3  articulo4  contacto'
+						 'articulo5  articulo6  contacto'
+						 'indice     indice     contacto';
+}
+
+.elHijo {
+	/*background-color: pink;*/
+	width: auto;
+	height: auto;
+	/*border: 1px solid black;*/
+}
+
+.categorias { grid-area: categorias; } 
+
+.contacto { grid-area: contacto; }
+
+.buscar { grid-area: buscar; }
+
+.articulo1 { grid-area: articulo1; } .articulo2 { grid-area: articulo2; }
+
+.articulo3 { grid-area: articulo3; } .articulo4 { grid-area: articulo4; }
+
+.articulo5 { grid-area: articulo5; } .articulo6 { grid-area: articulo6; }
+
+.indice { grid-area: indice; }

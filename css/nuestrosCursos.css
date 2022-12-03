@@ -1,0 +1,86 @@
+/* === === === === Titulo === === === === */
+
+main .nuestrosCursos {
+	/*background: skyblue;*/
+	text-align: center;
+	width: 90%;
+	margin: 40px auto;
+}
+
+main .nuestrosCursos .separador {
+	background: rgba(48, 47, 47, 0.8);
+	width: 100%;
+	height: 4px;
+	z-index: 0;
+}
+
+main .nuestrosCursos .titulo {
+	color: rgba(48, 47, 47, 0.8);
+	background: white;
+	font-size: 30px;
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	bottom: 30px;
+	z-index: 4;
+}
+
+main .nuestrosCursos .titulo .icono {
+	width: 30px;
+	height: 30px;
+	opacity: 0.8;
+}
+
+/* === === === === Cursos === === === === */
+
+main .nuestrosCursos .cursos {
+	/*background: skyblue;*/
+	/*Flexbox*/
+	display: flex;
+	justify-content: space-between;
+}
+
+main .nuestrosCursos .cursos .articulo {
+	/*background: pink;*/
+	width: 24.4%;
+}
+
+main .nuestrosCursos .cursos .articulo .imagen {
+	width: 100%;
+	vertical-align: top;
+}
+
+main .nuestrosCursos .cursos .articulo .title {
+	color: #302f2f;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+main .nuestrosCursos .cursos .articulo .parrafo {
+	color: black;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 25px;
+}
+
+main .nuestrosCursos .cursos .articulo .enlaceAzul {
+	color: white;
+	background: var(--primarioAzul);
+	font-size: 17px;
+	text-decoration: none;
+	padding: 10px 20px;
+	/*Flexbox*/
+	display: inline-flex;
+	align-items: center;
+}
+
+main .nuestrosCursos .cursos .articulo .enlaceAzul:hover {
+	background-color: rgb(22, 114, 196);
+}
+
+main .nuestrosCursos .cursos .articulo .enlaceAzul .iconoMenu {
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}

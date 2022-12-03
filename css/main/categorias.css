@@ -1,0 +1,34 @@
+body .contenedorGrid .categorias {
+	height: 90px;
+	/*Flexbox*/
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+body .contenedorGrid .categorias .menuCategorias {
+	color: white;
+	background: var(--primarioAzul);
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	/*Flexbox*/
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+body .contenedorGrid .categorias .menuCategorias img {
+	width: 13px;
+	margin: 0 10px;
+}
+
+/*
+	Es ilegal que le haga el drop down, porque requiere de un click que se activa usando JavaScript
+	Por lo que solo con HTML y CSS podria usar un input select... pero sabes que eso no acabara bien
+	Asi que no seas necio y espera hasta que revises de nuevo todo el JavaScript
+*/

@@ -1,0 +1,30 @@
+.contenedorGrid .buscar {
+	height: 90px;
+	/*Flexbox*/
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.contenedorGrid .buscar .input-icono {
+	width: 100%;
+	background: url('../../media/lupa.png') white;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 97% center;
+	border: 1px solid rgba(133, 133, 133, 0.6);
+	z-index: 1;
+	/*Flexbox*/
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.contenedorGrid .buscar .input-icono input {
+	font-size: 16px;
+	width: 100%;
+	padding: 7px 0px 7px 10px;
+	border: none;
+	background: transparent;
+	z-index: 0;
+}

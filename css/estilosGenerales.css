@@ -1,0 +1,17 @@
+* {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* --- variables --- */
+
+:root {
+	--primarioAzul: #4A88F4;
+	--facebookColor: rgb(59, 89, 152);
+	--twitterColor: rgb(0, 171, 240);
+	--youtubeColor: rgb(204, 24, 30);
+}

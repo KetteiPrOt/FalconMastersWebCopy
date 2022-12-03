@@ -1,0 +1,78 @@
+/* --- Layout --- */
+.piePagina .separadorAzul {
+	height: 6px;
+	background: var(--primarioAzul);
+	margin-bottom: 4px;
+}
+
+.piePagina footer {
+	background: #302f2f;
+	height: 120px;
+}
+
+.piePagina footer .disminuirAncho {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	/*Flexbox*/
+	display: flex;
+	justify-content: space-between;
+}
+
+/* --- Logo --- */
+.piePagina footer .disminuirAncho .logoGrande {
+	height: 100%;
+	vertical-align: top;
+}
+
+/* --- Redes --- */
+.piePagina footer .disminuirAncho .redesSociales {
+	width: 350px;
+	/*Flexbox*/
+	display: flex;
+}
+
+.piePagina footer .disminuirAncho .redesSociales .redSocial {
+	width: 33%;
+	text-decoration: none;
+	/*Flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.piePagina footer .disminuirAncho .redesSociales .redSocial:hover {
+	background: black;
+}
+	
+
+.piePagina footer .disminuirAncho .redesSociales .facebook {
+	background: var(--facebookColor);
+}
+
+.piePagina footer .disminuirAncho .redesSociales .twitter {
+	background: var(--twitterColor);
+}
+
+.piePagina footer .disminuirAncho .redesSociales .youtube {
+	background: var(--youtubeColor);
+}
+
+.piePagina footer .disminuirAncho .redesSociales .redSocial .icono {
+	width: 35px;
+	margin-top: 15px;
+}
+
+
+/*parrafo*/
+.piePagina footer .disminuirAncho .redesSociales .redSocial .numero {
+	color: white;
+	font-size: 22px;
+}
+
+.piePagina footer .disminuirAncho .redesSociales .redSocial .parrafo {
+	color:white;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
